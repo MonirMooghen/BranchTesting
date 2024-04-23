@@ -5,6 +5,6 @@ public abstract class Animal {
 
     protected abstract boolean foodType(String foodType);
 
-    protected abstract String showMood(boolean);
+    protected abstract String showMood(boolean isHappy);
 
 }

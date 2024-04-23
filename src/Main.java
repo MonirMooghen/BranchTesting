@@ -7,5 +7,9 @@ public class Main {
         System.out.println(muffer.makeSound());
         System.out.println(pishi.foodType("fish"));
         System.out.println(muffer.foodType("bone"));
+        System.out.println(muffer.showMood(true));
+        System.out.println(muffer.showMood(false));
+        System.out.println(pishi.showMood(true));
+        System.out.println(pishi.showMood(false));
     }
 }

@@ -11,8 +11,8 @@ public class Dog extends Animal {
     }
 
     @Override
-    protected String showMood(boolean){
-        if (true){
+    protected String showMood(boolean isHappy){
+        if (isHappy) {
             return "logrer";
         } else {
             return "knurrer";
