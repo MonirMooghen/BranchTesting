@@ -4,4 +4,7 @@ public abstract class Animal {
     protected abstract String makeSound();
 
     protected abstract boolean foodType(String foodType);
+
+    protected abstract String showMood(boolean);
+
 }

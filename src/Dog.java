@@ -9,4 +9,13 @@ public class Dog extends Animal {
     protected boolean foodType(String bone){
         return true;
     }
+
+    @Override
+    protected String showMood(boolean){
+        if (true){
+            return "logrer";
+        } else {
+            return "knurrer";
+        }
+    }
 }

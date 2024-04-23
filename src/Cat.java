@@ -9,4 +9,13 @@ public class Cat extends Animal {
     protected boolean foodType(String fish) {
         return true;
     }
+
+    @Override
+    protected String showMood(boolean){
+        if (true){
+            return "spinner";
+        } else {
+            return "hvæser";
+        }
+    }
 }
