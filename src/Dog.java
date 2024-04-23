@@ -4,4 +4,9 @@ public class Dog extends Animal {
     protected String makeSound(){
         return "woof";
     }
+
+    @Override
+    protected boolean foodType(String bone){
+        return true;
+    }
 }
